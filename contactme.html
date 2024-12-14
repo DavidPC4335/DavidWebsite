@@ -32,7 +32,7 @@
     </div>
     <!-- listed section -->
     <!-- <div class="contact__header"><h1>Feel free to contact me and I would be happy to Learn more about you!</h1></div> -->
-    <div class="contact__form">
+    <!-- <div class="contact__form">
         <form action="https://formspree.io/f/meqyejqw" method="POST">
         <div class="message__icon">
             <i class="fab fa-telegram" ></i>
@@ -51,15 +51,40 @@
                 <input type="text" placeholder="Email Address" name="Email">
             </div>
             <div id="input__field">
-                <i class="fa-regular fa-comment-dots"></i>
-                <textarea name="Message" placeholder="Message" rows="10"></textarea>
+               
             </div>
             <input type="submit" value="Submit" class="send__btn">
-            <p class="formspree">Powered by <a href="https://Formspree.io">Formspree</a></p>
+            
         
     </form>
+    </div> -->
+    <div class="form-wrapper">
+    <div class="form-container">
+        <form class="form" action="https://formspree.io/f/meqyejqw" method="POST">
+            <!-- <div class="message__icon">
+                <i class="fab fa-telegram" ></i>
+                <span>Connect with me</span>
+            </div> -->
+          <div class="form-group">
+            <label for="email">Email <i class="fa-solid fa-envelope"></i></label>
+                <input type="text" placeholder="Email Address" name="Email">
+          </div>
+          <div class="form-group">
+            <label for="email">Phone <i class="fa-solid fa-phone"></i></label>
+            
+            <input type="text" placeholder="Phone No." name="Phone">
+          </div>
+          <div class="form-group">
+            <label for="textarea">Message <i class="fa-regular fa-comment-dots"></i></label>
+            
+            <textarea name="Message" placeholder="Message" rows="10"></textarea>
+          </div>
+          <button class="form-submit-btn" type="submit">Submit</button>
+          <p class="formspree">Powered by <a href="https://Formspree.io">Formspree</a></p>
+        </form>
+        
+      </div>
     </div>
-
 <!-- footer section -->
 <div hf-include-html="footer.html"></div>
 <!-- <?php $IPATH = $_SERVER["DOCUMENT_ROOT"]."/php/"; include($IPATH."headernav.html") ?> -->
